@@ -1,0 +1,15 @@
+.content{
+    max-width: 600px;
+    margin : auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content img{
+    max-width: 600px;
+    margin :auto;   
+    border-radius: 70%;
+}
+h3{
+    text-align: center;
+    color : dodgerblue;
+}

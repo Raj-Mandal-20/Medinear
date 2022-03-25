@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     
+    font-family: 'Titillium Web', sans-serif;
+ 
+}
+body{
+    background-color: rgb(77, 77, 255);
+    
+}
+label{
+    display: block;
+    font-weight: bold;
+
+}
+.content{
+    position : absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.34),0px 6px 8px rgba(0, 0, 0, 0.54);
+    background-color: white;
+	border-radius : 20px;
+}
+.logimage{
+    width: 190px;
+    height: 190px;
+    margin: auto;
+    border-radius: 0rem;
+    
+   animation: bike 9s infinite reverse;
+    z-index: -1;
+    position: relative;
+    left : 100px;
+}
+@keyframes bike{
+    0%{left : 0px;}
+    95%{left : 100px;}
+    100%{right: 0px;}
+}
+.banner{
+    position: relative;
+    bottom : 27px;
+    right : 69px;
+    transform: rotate(-34deg);
+    background-color: #66ff1a;
+    width : 100px;
+    padding : 0px 30px;
+	border-radius : 0px 20px;
+	font-size : 17px;
+    z-index: -1;
+    color :  rgb(201, 30, 30);
+    font-weight : bold;
+    box-shadow: 0px 2px 3px rgba(77, 77, 255, 1);
+}
+.slide{
+    width : 290px;
+    height: 40px;;
+    position :  relative;
+    bottom: 30px;
+    z-index: 1;
+    background-color: white;
+
+}
+.admin{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+   color: rgb(183, 30, 197);
+   text-shadow: 1px 0px rgb(183, 30, 197);
+}
+input{
+    width: 250px;
+    color: rgb(148, 26, 138);
+    font-weight: bold;
+    font-size: 19px;
+    border : none;
+     background-color: rgb(195, 245, 243);
+    box-shadow: 0px 1px 2px rgba(0, 0.5, 0, 0.12);
+    cursor: pointer;
+}
+
+p{
+    font-weight: bold;
+}
+.sub{
+    display: block;
+    padding: 8px 25px;
+    margin-top : 8px;
+    font-weight: bold;
+    background-color: rgb(58, 58, 202);
+    color: white;
+    border: none;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.14);
+
+}
+.sub:hover{
+    animation: rotar 40s infinite alternate-reverse ease;
+    cursor: pointer;
+}

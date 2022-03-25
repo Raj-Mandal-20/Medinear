@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     
+    font-family: 'Titillium Web', sans-serif;
+ 
+}
+body{
+    background-color: rgb(77, 77, 255);
+    
+}
+label{
+    display: block;
+    font-weight: bold;
+
+}
+.content{
+    position : absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.34),0px 6px 8px rgba(0, 0, 0, 0.54);
+    background-color: white;
+}
+.logimage{
+    width: 190px;
+    height: 190px;
+    margin: auto;
+    border-radius: 50rem;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.34);
+    background-color: aqua;
+   padding: 25px;
+   animation: rotar 40s infinite ease;
+   
+}
+@keyframes rotar{
+    0%{background-color : #ff941a;}
+    25%{background-color: #66ff1a;}
+   
+    50%{background-color : #ff0066;}
+    75%{background-color: #00b3b3;}
+   
+    85%{background-color : #ffff1a;}
+    100%{background-color: #1ab2ff;}
+   
+}
+
+.admin{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+   color: rgb(183, 30, 197);
+}
+input{
+    width: 250px;
+    color: rgb(148, 26, 138);
+    font-weight: bold;
+    font-size: 19px;
+    border : none;
+     background-color: rgb(195, 245, 243);
+    box-shadow: 0px 1px 2px rgba(0, 0.5, 0, 0.12);
+    cursor: pointer;
+}
+
+p{
+    font-weight: bold;
+}
+.sub{
+    display: block;
+    padding: 8px 25px;
+    margin-top : 8px;
+    font-weight: bold;
+    background-color: rgb(58, 58, 202);
+    color: white;
+    border: none;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.14);
+
+}
+.sub:hover{
+    animation: rotar 40s infinite alternate-reverse ease;
+    cursor: pointer;
+}
