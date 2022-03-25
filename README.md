@@ -1,0 +1,1 @@
+# Medinear We are providing this website to help both the rural and urban people to get the medicines at their doorsteps from the local pharmacies super fast and at a very low delivery charge . The biggest advantage provided is everyone can choose from their preferable language.
